@@ -11,17 +11,17 @@ console.log(false && true); // output False
 
 let highIncome = true;
 
-let goodCreditScore = true;
+let goodCreditScore = false;
 
-let eligibleForLoan = highIncome && goodCreditScore;
+let eligibleForLoan = highIncome || goodCreditScore;
 
-console.log('Eligible', eligibleForLoan);
+console.log('Eligible', !eligibleForLoan);
 
 
 
 // Logical NOT (!)
 
-let applicationRefused = !eligibleForLoan;
+let applicationRefused = eligibleForLoan;
 
 console.log('Not eligible', eligibleForLoan);
 
