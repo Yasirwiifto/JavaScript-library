@@ -1,0 +1,1 @@
+document.getElementById("js").innerHTML = "Welcome to my JavaScript library";
